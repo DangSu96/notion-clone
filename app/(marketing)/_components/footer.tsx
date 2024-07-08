@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Logo } from "./logo"
+import Link from "next/link"
 
 export const Footer = () => {
   return(
@@ -10,8 +11,11 @@ export const Footer = () => {
         <Button variant="ghost" size="sm">
           Privacy Policy
         </Button>
-        <Button variant="ghost" size="sm">
+        {/* <Button variant="ghost" size="sm">
           Terms & Conditions
+        </Button> */}
+        <Button variant="ghost" size="sm" asChild>
+          <Link href="https://icons8.com">App icon by Icons8</Link>
         </Button>
       </div>
     </div>

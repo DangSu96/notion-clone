@@ -12,12 +12,12 @@ export const Logo = () => {
     <div className="hidden md:flex items-center gap-x-2">
       <Image 
         src="/next.svg"
-        width="40"
-        height="40"
+        width="60"
+        height="60"
         alt="logo"
       />
       <p className={cn("font-semi", font.className)}>
-        Jotion
+        {/* Notion */}
       </p>
     </div>
   )

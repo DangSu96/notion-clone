@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 기본값 */
 html,
 body,
 :root {
