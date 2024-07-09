@@ -11,10 +11,18 @@ export const Logo = () => {
   return(
     <div className="hidden md:flex items-center gap-x-2">
       <Image 
-        src="/next.svg"
-        width="60"
-        height="60"
+        src="/next-light.svg"
+        width="30"
+        height="30"
         alt="logo"
+        className="dark:hidden"
+      />
+      <Image 
+        src="/next-dark.svg"
+        width="30"
+        height="30"
+        alt="logo"
+        className="hidden dark:block"
       />
       <p className={cn("font-semi", font.className)}>
         {/* Notion */}

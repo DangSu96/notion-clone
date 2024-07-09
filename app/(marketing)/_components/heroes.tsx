@@ -11,6 +11,12 @@ export const Heroes = () => {
             className="object-contian"
             alt="Icons by Icons8"
           />
+          {/* <Image 
+            src="/working.png"
+            fill
+            className="object-contian dark:hidden"
+            alt="Icons by Icons8"
+          /> */}
         </div>
         <div className="relative mx-5 w-[300px] h-[350px] hidden md:block">
           <Image
@@ -19,6 +25,12 @@ export const Heroes = () => {
             className="object-contian"
             alt="Icons by Icons8"
           />
+          {/* <Image
+            src="/playing.png"
+            fill
+            className="object-contian dark:hidden"
+            alt="Icons by Icons8"
+          /> */}
         </div>
       </div>
     </div>
